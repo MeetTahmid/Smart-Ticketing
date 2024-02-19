@@ -19,9 +19,9 @@ for (seat of seats) {
                 totalPriceCalculate().join(" ");
             granTotalCalculate();
         } else if (selectedSeats.includes(event.target)) {
-            alert("you have already selected the seat.");
+            alert("Already Selected Seat");
         } else {
-            alert("You can not buy more than 4 tickets.");
+            alert("Can't Buy More Than 5");
         }
 
         const couponInput = getAElementById("coupon-input-field");
@@ -39,7 +39,7 @@ function openModal() {
         getAElementById("my_modal_1").showModal();
     } else {
         alert(
-            "Please select at least one seat and add your phone number to proceed."
+            "Select at least 1 Seat And Type Your Phone Number For Submit"
         );
     }
 }

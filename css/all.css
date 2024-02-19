@@ -153,3 +153,18 @@ section {
 .seat {
     transition: all 0.5s;
 }
+
+.input {
+    background: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #03071266;
+}
+
+.btn-submit {
+    border-radius: 10px;
+}
+
+.coupon-input-field {
+    background-color: #fff;
+}
